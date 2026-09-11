@@ -16,6 +16,8 @@ Stockez les moyens de paiement dans un tableau manuel redimensionné dynamiqueme
 
 Effectuez les transactions (tentative de débit puis remboursement partiel) sans connaître l'implémentation sous-jacente des moyens de paiement.
 
+https://github.com/user-attachments/assets/e21e2e89-cbdb-442b-b762-e3adcd9283e3
+
 Exercice 2 — Système de Notification Extensible
 Ce qui est fait
 Conception de l'interface Notificationdéfinissant l'envoi de message, le nom du canal et un niveau de priorité numérique :
@@ -33,3 +35,21 @@ Enregistrement flexible des canaux dans un tableau dynamique.
 Diffusion ordonnée ( broadcast) : copie défensive du tableau actif et tri par priorité décroissante via Arrays.sortet Comparator.comparingInt(Notification::getPriority).reversed().
 
 Découplage total : l'ajout futur d'un canal (ex : Slack, Webhook) ne nécessite aucune modification du gestionnaire.
+
+
+
+
+https://github.com/user-attachments/assets/a8815125-a8d2-4240-9a2f-6c8e67e19c81
+
+
+
+
+
+
+
+
+
+
+
+
+
